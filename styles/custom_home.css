@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1632px;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(41, 101, 238, 0.78) -203.1%,
+      rgba(46, 59, 91, 0.78) 126.7%
+    ),
+    url("../Images/Home/1_yUgoCAvFMatPAKWT5yUcnA 1.png");
+  background-size: cover;
+  height: 678px;
+  padding: 5px 0;
+}
+
+.header .center-logo {
+  max-width: 1000px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.content-container {
+  height: 1120px;
+  padding-top: 152px;
+  padding-bottom: 186px;
+}
+
+.content {
+  padding-left: 111px;
+  padding-right: 111px;
+}
+.content .left {
+  position: relative;
+}
+
+.left .shadow-img {
+  position: absolute;
+  left: -111px;
+  top: 144px;
+  z-index: -1;
+}
+
+.content .right {
+  margin-left: 146px;
+  position: relative;
+}
+.right .paragraph {
+  width: 678px;
+}
+.paragraph p {
+  padding-top: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 1px;
+
+  color: #2e3b5b;
+}
+
+.right .polygon {
+  position: absolute;
+  right: -111px;
+  bottom: -85px;
+}

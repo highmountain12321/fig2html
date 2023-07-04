@@ -1,0 +1,325 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.about-up {
+  postion: relative;
+}
+.polygon-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.about-up-container {
+  width: 1310px;
+  margin: auto;
+}
+
+.about-up h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 100px;
+  /* identical to box height */
+  width: 275px;
+  height: 100px;
+  text-align: center;
+
+  color: #2e3b5b;
+}
+.about-up-container .paragraph p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.11px;
+
+  color: #2e3b5b;
+  width: 919px;
+  height: 149px;
+}
+.about-up .d-flex {
+  padding-bottom: 201px;
+}
+
+.about-up-footer {
+  background: rgba(237, 246, 253, 0.69);
+  border-radius: 3px;
+  /* transform: rotate(-180deg); */
+  height: 324px;
+  margin-top: 162px;
+}
+
+.about-up-footer .shift-50 {
+  background: linear-gradient(
+      180deg,
+      rgba(24, 117, 240, 0.94) -195.15%,
+      rgba(46, 59, 91, 0.94) 126.7%
+    ),
+    url("../Images/About/bg-2 1.png");
+  border-radius: 3px;
+  height: 323.9px;
+  transform: translateY(-50%);
+  padding: 86px 138px;
+}
+
+.about-up-footer .shift-50 .description {
+  width: 1035px;
+  height: 152px;
+  margin: auto;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 0.11px;
+
+  color: #ffffff;
+}
+
+.about-mid {
+  height: 907px;
+  background: #2e3b5b;
+  padding-top: 129px;
+}
+
+.about-mid .advise-up {
+  margin: auto;
+  width: 1018px;
+  height: 183px;
+  margin-bottom: 84px;
+}
+
+.about-mid .advise-up .advise-content {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.advise-down {
+  width: 1785px;
+  height: 338px;
+  margin: auto;
+  background: url("../Images/About/landing_img-4 1.png");
+  border-radius: 211px;
+  padding-top: 100px;
+}
+
+.advise-down-content {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+  width: 630px;
+  margin: auto;
+  color: #2e3b5b;
+}
+
+.about-down {
+  width: 100%;
+  padding-top: 118px;
+  padding-bottom: 212px;
+  padding-left: 144px;
+  padding-right: 22.45px;
+  position: relative;
+}
+
+.about-down .cdxc {
+  padding-top: 135px;
+  padding-left: 87px;
+  padding-right: 175px;
+}
+.cdxc .cdxc-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #2e3b5b;
+  padding-bottom: 50px;
+}
+.cdxc .cdxc-content {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+
+  color: #2e3b5b;
+}
+
+.about-down .polygons {
+  postion: relative;
+  right: 0;
+}
+
+.about-down .polygons img.polygon-big {
+  position: absolute;
+  top: 143px;
+  right: 0;
+}
+
+.about-down .polygons img.polygon-small {
+  position: absolute;
+  top: 163px;
+  right: 0;
+}
+
+.bio-container {
+  width: 100%;
+  padding-left: 145px;
+}
+
+.bio .bio-container .cdxc {
+  padding-top: 91px;
+  width: 572px;
+}
+.bio-container .right-panel {
+  width: 600px;
+  background: #2e3b5b;
+  height: 983px;
+}
+div.bio-image {
+  position: absolute;
+  right: 144px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.mybg {
+  padding: 100px 0;
+}
+div.mybg .mybg-title {
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #000000;
+  padding-bottom: 76px;
+}
+
+div.bg-description.cdxc p.cdxc-content {
+  padding-left: 56px;
+}
+div.bg-description.cdxc p:first-child.cdxc-content {
+  padding-right: 178px;
+}
+div.bg-description.cdxc p:last-child.cdxc-content {
+  padding-right: 220px;
+  padding-top: 53px;
+}
+
+.competencies {
+  height: 722px;
+  background: linear-gradient(180deg, #f1f8ff 0%, rgba(241, 248, 255, 0) 100%),
+    url("../Images/MyBio/Pattern-background 1.png") no-repeat;
+}
+.competencies .comp-description {
+  position: absolute;
+  top: 172px;
+  left: 145px;
+  max-width: 50%;
+}
+.competencies .comp-title {
+  text-transform: uppercase;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #2e3b5b;
+}
+
+.competencies ul li {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height */
+  height: 20px;
+  padding-top: 34px;
+  padding-left: 10px;
+  color: #2e3b5b;
+}
+
+.competencies .comp-image {
+  position: relative;
+  right: 0;
+}
+
+.competencies .comp-image .img-dna {
+  position: absolute;
+  right: 0;
+}
+
+.partnership {
+  height: 809px;
+  background: linear-gradient(180deg, #f1f8ff 0%, rgba(241, 248, 255, 0) 100%),
+    url("../Images/MyBio/Pattern-background 1.png") no-repeat;
+  background-position: right;
+}
+.partnership .comp-description {
+  position: absolute;
+  top: 194px;
+  right: 519px;
+  max-width: 621px;
+}
+.partnership .comp-title {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #2e3b5b;
+}
+
+.partnership p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  /* identical to box height */
+  height: 20px;
+  padding-top: 34px;
+  color: #2e3b5b;
+  letter-spacing: 0.2px;
+}
+
+.partnership .comp-image {
+  position: relative;
+  left: 0;
+}
+
+.partnership .comp-image .img-dna {
+  position: absolute;
+  left: 0;
+}
